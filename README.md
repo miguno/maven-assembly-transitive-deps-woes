@@ -1,4 +1,4 @@
-# Maven Assembly Woes: Transitive Dependencies and <excludes>
+# Maven Assembly Woes: Transitive Dependencies and excludes directive
 
 ## Problem
 
