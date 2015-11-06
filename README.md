@@ -13,9 +13,8 @@ Dependency graph:
 * Project `child1` depends on library `A` directly, which in turns depends on library `B`.
 * Project `child2` depends on library `B` directly.
 * Once we [exclude `child2` in the assembly setup for `child1`](package/src/assembly/package.xml#L23-L25)
-  (and with `useTransitiveFiltering` being set to `true`),
-  then library `B` will be also excluded from the assembly of `child1` (even though library `A`,
-  on which `child1` depends directly, still depends on library `B`).  Doh!
+  (and with `useTransitiveFiltering` being set to `true`), then library `B` will be also excluded from the
+  assembly of `child1` -- even though library `A` still depends on library `B`.  Doh!
 
 
 ## Example
