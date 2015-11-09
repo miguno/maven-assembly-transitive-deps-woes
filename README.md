@@ -90,6 +90,10 @@ package/target/package-1.0-bin/share/java/
     └── xz-1.0.jar
 ```
 
+# References
+
+* [MASSEMBLY-504: Transitive dependencies missing when two deps rely on them, but one of the deps is excluded](https://issues.apache.org/jira/browse/MASSEMBLY-504)
+
 
 # Appendix
 
